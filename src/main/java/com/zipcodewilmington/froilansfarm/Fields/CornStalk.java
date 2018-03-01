@@ -6,7 +6,7 @@ import java.util.ArrayList;
 
 public class CornStalk extends Crop {
 
-    EarCorn earCorn = new EarCorn();
+   protected EarCorn earCorn = new EarCorn();
 
 
 

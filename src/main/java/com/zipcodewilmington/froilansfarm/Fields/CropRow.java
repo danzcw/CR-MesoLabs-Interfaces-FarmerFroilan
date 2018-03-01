@@ -5,6 +5,6 @@ import java.util.ArrayList;
 
 public class CropRow {
 
-    Crop crop = new Crop();
-    ArrayList<Crop> crops = new ArrayList<Crop>();
+
+   protected ArrayList<Crop> crops = new ArrayList<Crop>();
 }

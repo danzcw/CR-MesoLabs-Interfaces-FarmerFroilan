@@ -12,7 +12,7 @@ public abstract class Aircraft extends Vehicle {
     }
 
     public String makeNoise() {
-        return null;
+        return "I feel the need, the need for speed!";
     }
 
     public boolean rideable() {

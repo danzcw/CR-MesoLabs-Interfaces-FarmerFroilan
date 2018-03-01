@@ -7,5 +7,5 @@ import java.util.ArrayList;
 public class Stable{
 
     Horse horse = new Horse();
-    ArrayList<Horse> horses = new ArrayList<Horse>();
+    protected ArrayList<Horse> horses = new ArrayList<Horse>();
 }

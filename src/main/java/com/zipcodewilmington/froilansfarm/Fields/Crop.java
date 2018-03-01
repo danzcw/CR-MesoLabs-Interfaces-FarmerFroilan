@@ -4,19 +4,19 @@ import com.zipcodewilmington.froilansfarm.Interfaces.Produce;
 
 import java.util.ArrayList;
 
-public class Crop implements Produce{
-    ArrayList<CornStalk> earCorns = new ArrayList<CornStalk>();
-    ArrayList<TomatoPlant> tomatoPlants = new ArrayList<TomatoPlant>();
+public abstract class Crop implements Produce{
+    protected CornStalk cornStalk = new CornStalk();
+    protected TomatoPlant tomatoPlant = new TomatoPlant();
 
     public Crop(){
 
     }
 
-    public boolean hasBeenFertilized (Crop crop) {
+    public boolean hasBeenFertilized () {
         return false;
     }
 
-    public boolean hasBeenHarvested(Crop crop) {
+    public boolean hasBeenHarvested() {
         return false;
     }
 

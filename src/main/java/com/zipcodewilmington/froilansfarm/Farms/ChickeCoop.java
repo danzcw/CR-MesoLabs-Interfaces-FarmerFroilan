@@ -7,6 +7,6 @@ import java.util.ArrayList;
 public class ChickeCoop {
 
     Chicken chicken = new Chicken();
-    ArrayList<Chicken> chickens = new ArrayList<Chicken>();
+   protected ArrayList<Chicken> chickens = new ArrayList<Chicken>();
 
 }

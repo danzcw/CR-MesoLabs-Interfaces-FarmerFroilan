@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class Field {
 
-    ArrayList<CropRow> cropRows = new ArrayList<CropRow>();
+    protected ArrayList<CropRow> cropRows = new ArrayList<CropRow>();
 
 
     public Field() {
