@@ -1,9 +1,8 @@
 package com.zipcodewilmington.froilansfarm.Vehicles;
 
 import com.zipcodewilmington.froilansfarm.Fields.CropRow;
-import com.zipcodewilmington.froilansfarm.Interfaces.FarmVehicle;
 
-public class Cropduster extends Aircraft implements FarmVehicle{
+public class Cropduster extends Aircraft implements FarmVehicle, Rideable{
 
     public Cropduster() {
 

@@ -9,4 +9,12 @@ public class TomatoPlant extends Crop{
     public Object yields() {
         return tomato;
     }
+
+    public boolean hasBeenFertilized() {
+        return false;
+    }
+
+    public boolean hasBeenHarvested() {
+        return false;
+    }
 }
